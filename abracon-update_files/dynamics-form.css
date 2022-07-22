@@ -1,0 +1,140 @@
+.dynamics-form form *[data-layout="true"] {
+  max-width: 100%;
+}
+
+.dynamics-form form {
+  outline: none;
+}
+
+.dynamics-form form * {
+  font-family: proxima-nova, sans-serif !important;
+  outline: none;
+}
+
+.dynamics-form .lp-form-field::after,
+.dynamics-form .marketing-subscription-list {
+  content: "";
+  clear: both;
+  display: table;
+	line-height: 28px;
+}
+
+.dynamics-form form div.lp-form-field {
+	margin: 0px;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+.dynamics-form input,
+.dynamics-form textarea,
+.dynamics-form select {
+  font-family: proxima-nova, sans-serif;
+  font-size: inherit;
+  background-color: #ffffff;
+  border-color: #CCCCCC;
+  border-width: 1px;
+  color: black;
+  font-size: inherit;
+  height: auto;
+  display: block;
+  border-style: solid;
+  border: 1px solid #ccc;
+  background-position: calc(100% - 12px);
+  background-size: auto;
+  background-repeat: no-repeat;
+  line-height: 30px;
+  font-weight: 400;
+  box-shadow: rgb(235 235 235) 1px 1px 4px;
+  border-radius: 3px;
+  padding: 7px 15px !important;
+  height: auto;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-indent: 0.01px;
+  letter-spacing: 0;
+}
+
+.dynamics-form input::placeholder,
+.dynamics-form textarea::placeholder,
+.dynamics-form select::placeholder {
+  padding-left: 0 !important;
+  box-sizing: border-box;
+  color: #757575;
+  text-indent: 0.01px;
+}
+
+.dynamics-form select {
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+}
+
+.dynamics-form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-user-select: none;
+}
+
+.dynamics-form select {
+  line-height: 30px;
+  font-weight: 400;
+  box-sizing: border-box;
+  box-shadow: rgb(235 235 235) 1px 1px 4px;
+  border-radius: 3px;
+  padding: 7px;
+  outline: currentcolor none medium;
+  background-color: #ffffff;
+  border-color: #CCCCCC;
+  border-width: 1px;
+  color: #757575;
+  background-image: url(/assets/icons/down-arrow.svg);
+}
+
+.dynamics-form input[type='checkbox'] {
+  display: inline-block;
+  background-color: #ffffff;
+  border-color: #CCCCCC;
+  border-width: 1px;
+  color: #757575;
+  float: left;
+  width: 13px;
+  height: 13px;
+  margin: 5px 15px 5px 0 !important;
+	margin-top: 8px !important;
+    margin-bottom: 8px !important;
+}
+
+.dynamics-form form button[type="submit"], .dynamics-form form div[data-editorblocktype="SubmitButtonBlock"] button {
+  display: inline-block;
+  min-width: 187px;
+  width: auto;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 14px;
+  color: white;
+  border-radius: 23px;
+  background-color: #0070FF;
+  font-size: 12px;
+  letter-spacing: 2px;
+  line-height: 17px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.dynamics-form form div.marketing-customfield input[type="checkbox"],
+.dynamics-form form div.marketing-field input[type="checkbox"],
+.dynamics-form form div.marketing-subscription-list input {
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+  margin-top: 3px;
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+}
+
+.dynamics-form form button[type="submit"]:hover, .dynamics-form form div[data-editorblocktype="SubmitButtonBlock"] button:hover {
+  background-color: #08275E
+}

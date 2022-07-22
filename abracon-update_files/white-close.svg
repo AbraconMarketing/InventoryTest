@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="37px" viewBox="0 0 36 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>close</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="close" transform="translate(2.000000, 2.000000)" stroke="#FFFFFF" stroke-width="2">
+            <g id="Group-7" transform="translate(0.000000, 0.810554)">
+                <ellipse id="Oval-Copy-2" transform="translate(16.465402, 16.255669) rotate(45.000000) translate(-16.465402, -16.255669) " cx="16.465402" cy="16.2556687" rx="11.4654018" ry="11.2556688"></ellipse>
+            </g>
+            <polyline id="Page-1-Copy-2" transform="translate(16.161450, 17.107808) rotate(45.000000) translate(-16.161450, -17.107808) " points="16.1614504 11.6078082 16.1614504 17.1078082 16.1614504 22.6078082"></polyline>
+            <polyline id="Page-1-Copy-2" transform="translate(16.161450, 17.107808) rotate(135.000000) translate(-16.161450, -17.107808) " points="16.1614498 11.6078084 16.1614498 17.1078084 16.1614498 22.6078084"></polyline>
+        </g>
+    </g>
+</svg>
